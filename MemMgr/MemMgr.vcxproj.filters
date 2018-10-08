@@ -15,12 +15,33 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp">
+    <ClCompile Include="Entry.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IResMgr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ResMgr_Imp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeList.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="IMemMgr.h">
+    <ClInclude Include="IAlloc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IResMgr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ResMgr_Imp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartPtr.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
